@@ -1,12 +1,27 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - 
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - usrl-uofsc/WaterSampling
+  - usrl-uofsc/stag_ros
+  - usrl-uofsc/icuas22_competition
+  - usrl-uofsc/tello_demo
+  - usrl-uofsc/px4_control
+  - usrl-uofsc/kalibr
+  - usrl-uofsc/Mask_RCNN
+  - usrl-uofsc/px4_with_vision
+  - usrl-uofsc/ms5837-python
+  - usrl-uofsc/kalibr_allan
+  - usrl-uofsc/stag
+  - usrl-uofsc/magdrone
+  - usrl-uofsc/vrpn_client_ros
+  - usrl-uofsc/optitrack_utils
+  - usrl-uofsc/Magdrone_2
+  - usrl-uofsc/PX4-Autopilot
+  - usrl-uofsc/kinodynamic_rrt_star
+  - usrl-uofsc/dji_gimbal_cam
+  - usrl-uofsc/stag_ros-release
+  - usrl-uofsc/F1TENTH-UofSC
+  - usrl-uofsc/Raspberry-Pi-sample-code
+  - usrl-uofsc/vio_tools
+  - usrl-uofsc/jetyak_uav_utils

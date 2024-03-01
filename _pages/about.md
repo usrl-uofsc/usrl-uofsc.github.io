@@ -1,8 +1,10 @@
 ---
 layout: about
-title: Home
-permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+title: About
+permalink: /about_default/
+subtitle: University of South Carolina
+nav: false
+nav_order: 1
 
 profile:
   align: right
