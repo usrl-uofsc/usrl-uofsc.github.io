@@ -2,21 +2,34 @@
   margin-left: 1rem;
 }
 
+footer>div>img
+{
+  margin-bottom: 1rem;
+  max-width:150px;
+}
+
 .big-image {
-  height: 100vh;
+  height: 90vh;
   width: auto;
   position: relative;
   background-size: cover;
-  background-position: 50% 50%;
-  background-image: url("/assets/img/usrl_hero_1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: images;
+  animation-duration: 30s;
+  animation-direction: normal;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  overflow: hidden;
 }
 
 .overlay {
-  position: absolute;
+  position: relative;
   height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
   background: rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
@@ -35,4 +48,22 @@
   margin: 0;
   font-size: 28px;
   color:white;
+}
+
+@keyframes images{
+   0%{
+     background-image: url(/assets/img/3.jpg);
+   }
+   30%{
+     background-image: url(/assets/img/4.jpg);
+   }
+   60%{
+     background-image: url(/assets/img/5.jpg);
+   }
+   90%{
+     background-image: url(/assets/img/6.jpg);
+   }
+   100%{
+     background-image: url(/assets/img/3.jpg);
+   }
 }

@@ -3,7 +3,7 @@
  ******************************************************************************/
 
 body {
-  padding-bottom: 100px;
+  padding-bottom: 1px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -31,10 +31,11 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
-// Profile
+// Profile 
+// USRL - Affects the size of the profile picture
 .profile {
   img {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -54,4 +55,9 @@ body.sticky-bottom-footer {
 * Projects
 *****************************************************************************/
 
-// TODO: redefine projects layout.
+.card-title{
+  text-transform:none !important;
+}
+
+
+
