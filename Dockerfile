@@ -10,9 +10,10 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     build-essential \
     zlib1g-dev \
     jupyter-nbconvert \
-    jupyter \
     inotify-tools procps && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
+
+RUN pip install jupyter
 
 
 RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
