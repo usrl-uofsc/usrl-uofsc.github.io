@@ -1,0 +1,132 @@
+---
+layout: usrl/usrl_default
+---
+
+<html lang="{{ site.lang }}">
+  <!-- Head -->
+  <head>
+    {% if page.redirect %}
+      {% if page.redirect == true %}
+        {% assign redirect = site.baseurl | append: '/' %}
+      {% elsif page.redirect contains '://' %}
+        {% assign redirect = page.redirect %}
+      {% else %}
+        {% assign redirect = page.redirect | relative_url %}
+      {% endif %}
+      <meta http-equiv="refresh" content="3; url={{ redirect }}">
+    {% endif %}
+    {% include head.liquid %}
+    <link rel="stylesheet" href="/assets/css/usrl_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/contact_form/css/style.css">
+
+
+  </head>
+
+
+  <section class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <div class="wrapper">
+            <div class="row no-gutters mb-5">
+                <div class="row mx-0 justify-content-center">
+                    <form
+                      target="_blank"
+                      method="POST"
+                      class="w-100 rounded-1 p-4 border bg-white"
+                      action="https://public.herotofu.com/v1/e6a03140-e216-11ee-9a57-6fb2bcc4c0d8"
+                      accept-charset="UTF-8">
+                      <label class="d-block mb-4">
+                        <span class="form-label d-block">Full Name</span>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          placeholder="First and Last Name"
+                        />
+                      </label>
+                      
+                      <label class="d-block mb-4">
+                        <span class="form-label d-block">Email Address</span>
+                        <input
+                          name="email"
+                          type="email"
+                          class="form-control"
+                          placeholder="myemail@example.com"
+                          required
+                        />
+                      </label>
+
+                      <label class="d-block mb-4">
+                        <span class="form-label d-block">Message</span>
+                        <textarea
+                          name="message"
+                          class="form-control"
+                          rows="3"
+                          placeholder="Please write your message here..."
+                          required
+                        ></textarea>
+                      </label>
+
+                      <div class="mb-3">
+                        <button type="submit" class="btn btn-primary px-3 rounded-3">
+                          Contact Us
+                        </button>
+                      </div>
+
+
+                    </form>
+                </div>
+
+              <div class="col-md-5 d-flex align-items-stretch">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13232.758250482413!2d-81.0307321!3d33.9876644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bad8bc4dc501%3A0x159adc0036f35678!2sMcNAIR%20Aerospace%20Center!5e0!3m2!1sen!2sus!4v1710277303749!5m2!1sen!2sus" width="600" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-map-marker"></span>
+                  </div>
+                  <div class="text">
+                    <p><b>1000 Catawba St, Suite 155 Columbia, SC, 29201</b></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-phone"></span>
+                  </div>
+                  <div class="text">
+                    <p><a  href="tel://+18037779754"><b>(+1) 803-777-9754</b></a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-envelope"></span>
+                  </div>
+                  <div class="text">
+                    <p><a href="mailto:vitzilaios@sc.edu"><b>vitzilaios@sc.edu</b></a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="dbox w-100 text-center">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-globe"></span>
+                  </div>
+                  <div class="text">
+                    <p><a href="https:\\www.usrl.sc.edu"><b>usrl.sc.edu</b></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

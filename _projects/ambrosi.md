@@ -1,5 +1,5 @@
 ---
-layout: usrl_single_profile
+layout: usrl/usrl_single_profile
 title: Anand Ambrosi
 description: B.Sc., Civil Engineering
 img: assets/img/people/photo_ambrosi.jpg

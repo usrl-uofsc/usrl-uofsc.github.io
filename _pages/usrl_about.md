@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: usrl/usrl_page
 title: About
 permalink: /about/
 subtitle: University of South Carolina

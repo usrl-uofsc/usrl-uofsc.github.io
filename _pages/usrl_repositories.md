@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: usrl/usrl_page
 permalink: /repos/
 title: Repositories
 description:  

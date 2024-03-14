@@ -1,5 +1,5 @@
 ---
-layout: usrl_contact
+layout: usrl/usrl_contact
 title: Contact
 permalink: /contact/
 nav: true

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: usrl/usrl_page
 permalink: /publications/
 title: Publications
 description: Publications from the Unmanned Systems and Robotics Laboratory team.

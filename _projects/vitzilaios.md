@@ -1,5 +1,5 @@
 ---
-layout: usrl_single_profile
+layout: usrl/usrl_single_profile
 title: Dr Nikolaos (Nikos) Vitzilaios
 description: Assistant Professor
 img: assets/img/people/photo_vitzilaios.jpg
@@ -22,8 +22,3 @@ profiles:
       <i class="fas fa-fw fa-fw"></i> Columbia, South Carolina, SC, 29208 <br> 
       <i class="fas fa-fw fa-fw"></i> United States of America <br>
 ---
-
-<style>
-
-
-<style>

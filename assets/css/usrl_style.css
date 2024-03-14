@@ -1,11 +1,96 @@
+
+html[data-theme="dark"]
+ {
+  
+  #navbar > div > a:nth-child(1) > img
+  {
+    content:url("/assets/img/usrl/usrl_logo_negative.png");
+
+  }
+
+  div.container.mt-5 > section > div > div > div > div > div.row.no-gutters.mb-5 > div.row.mx-0.justify-content-center > form
+  {
+    background: var(--global-bg-color) !important;
+    border:0px !important;
+  }
+
+  body > footer > div
+  {
+    a:hover
+      {
+        color:white;  
+      }
+  }
+
+}
+
+html[data-theme="light"]
+ {
+
+    body > footer>div
+    {
+      a:hover
+        {
+          color:white;  
+        }
+    }
+
+ }
+
 .navbar-brand{
   margin-left: 1rem;
 }
 
+.mt-5{
+  padding-bottom: 5rem;
+}
+
+.grid-sizer,.grid-item {
+    width: 200px !important;
+  }
+
+.card-body
+{
+  text-align:center;
+}
+
+.card {
+    img {
+      width: 100% !important;
+    }
+  }
+
+.card-title{
+  font-size:25px;
+}
+
 footer>div>img
 {
-  margin-bottom: 1rem;
-  max-width:150px;
+  margin-bottom: 0.3rem;
+  max-width:175px;
+}
+
+
+div.row.no-gutters.mb-5
+{
+  justify-content: center;
+
+  .row.mx-0.justify-content-center
+  {
+    flex-grow:0.7;
+  }
+
+}
+
+div.row.no-gutters.mb-5 > div.row.mx-0.justify-content-center > form
+{
+  height:100%;
+}
+
+div.row.no-gutters.mb-5 > div.row.mx-0.justify-content-center > form > div > button
+{
+  background:var(--global-theme-color) !important;
+  border-color:var(--global-theme-color) !important;
 }
 
 .big-image {

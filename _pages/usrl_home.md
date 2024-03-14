@@ -1,5 +1,5 @@
 ---
-layout: usrl_default
+layout: usrl/usrl_home
 title: Home
 permalink: /
 description: 

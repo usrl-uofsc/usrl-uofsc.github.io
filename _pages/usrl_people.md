@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: usrl/usrl_page
 title: People
 permalink: /people/
 description: Faculty, Undergrads, Grads and Alumni of the lab.

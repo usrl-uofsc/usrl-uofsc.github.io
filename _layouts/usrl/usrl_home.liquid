@@ -14,6 +14,13 @@
     {% endif %}
     {% include head.liquid %}
     <link rel="stylesheet" href="/assets/css/usrl_style.css">
+
+
+    <link rel="preload" href="/assets/img/usrl_hero_1.jpg" as="image" />
+    <link rel="preload" href="/assets/img/4.jpg" as="image" />
+    <link rel="preload" href="/assets/img/5.jpg" as="image" />
+    <link rel="preload" href="/assets/img/6.jpg" as="image" />
+
   </head>
 
   <!-- Body -->
@@ -21,35 +28,15 @@
     <!-- Header -->
     {% include header.liquid %}
 
-    <!-- Content -->
-    <div class="container mt-5" role="main">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == 'right' %}
-          <div class="row">
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-          </div>
-        {% else %}
-          <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-          </div>
-        {% endif %}
-      {% else %}
-        {{ content }}
-      {% endif %}
+    <div class="big-image">
+      <div class="overlay">
+        <h1><span style="color: var(--global-theme-color)">U</span>nmanned <span style="color: var(--global-theme-color)">S</span>ystems and <span style="color: var(--global-theme-color)">R</span>obotics <span style="color: var(--global-theme-color)">L</span>aboratory </h1>
+        <p>University of South Carolina</p>
+      </div>
     </div>
 
     <!-- Footer -->
-    {% include usrl/usrl_footer_short.liquid %}
+    {% include usrl/usrl_footer_full.liquid %}
 
     <!-- JavaScripts -->
     {% include scripts/jquery.liquid %}
@@ -69,5 +56,9 @@
     {% include scripts/progressBar.liquid %}
     {% include scripts/wechatModal.liquid %}
     {% include scripts/imageLayouts.liquid %}
+
   </body>
+
+
+
 </html>
