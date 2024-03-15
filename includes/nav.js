@@ -1,14 +1,14 @@
 document.write(`
 <nav class="navbar navbar-expand-lg navbar-light bg-light flex-row navbar-top">
     <div class="navbar-brand d-md-block">
-      <img src="media/icons/USRL.png" height="100" class="d-inline-block align-center" />
+      <img src="media/icons/usrl_logo.png" height="100" class="d-inline-block align-center" />
       <span class="align-center d-none d-md-inline">Unmanned Systems and Robotics Lab</span>
 
     </div>
     <span class="mx-lg-auto mr-auto"></span>
 
     <div class="navbar-brand d-none d-lg-block">
-      <img src="media/icons/grid_uofsc_primary.svg" height="100" class="d-inline-block align-center" />
+      <img src="media/icons/usc_logo_horizontal.png" height="80" class="d-inline-block align-center" />
     </div>
     <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarContent">
       <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,15 @@ document.write(`
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
+        <!-- Toogle theme mode -->
+          <li class="toggle-container">
+            <button id="light-toggle" title="Change theme">
+              <i class="fa-solid fa-moon"></i>
+              <i class="fa-solid fa-sun"></i>
+            </button>
+          </li>
       </ul>
     </div>
+
   </nav>
 `)
