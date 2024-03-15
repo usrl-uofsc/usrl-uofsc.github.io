@@ -1,6 +1,6 @@
 document.write(`
   <footer class="page-footer font-small garnet pt-4">
-    <div class="footer-copyright text-center py-3 black">© 2019 Copyright: Unmanned Systems and Robotics Lab, University
+    <div class="footer-copyright text-center py-3 black">© <script>document.write(new Date().getFullYear());</script> Copyright: Unmanned Systems and Robotics Lab, University
       of South Carolina. <div class="date"> </div> </div>
 
   </footer>
@@ -21,7 +21,7 @@ xhttp.onreadystatechange = function()
       {
         var lastUpdated = new Date(repo.updated_at);
         var day = lastUpdated.getUTCDate();
-        var month = lastUpdated.getUTCMonth();
+        var month = lastUpdated.getUTCMonth() + 1;
         var year = lastUpdated.getUTCFullYear();
         $(dateTagClass).text(`Last updated: ${month}-${day}-${year}`);
       }
