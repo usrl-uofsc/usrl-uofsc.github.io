@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Jessica Alvarenga, Nikolaos I. Vitzilaios, Kimon P. Valavanis, and Matthew J. Rutherford. Scaled Control Performance Benchmarks and Maneuvers for Small-Scale Unmanned Helicopters. In: 54th IEEE Conference on Decision and Control (CDC), Osaka, Japan, December 15-18, 2015."
+var preprint = ""
+var bib = ""
+var code = ""

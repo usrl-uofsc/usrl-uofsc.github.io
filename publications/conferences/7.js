@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Konstantinos Kanistras, Matthew Rutherford, Nikolaos Vitzilaios, and Kimon Valavanis. Experimental Study of Circulation Control Wings at Low Reynolds Numbers. In: 32nd AIAA Applied Aerodynamics Conference, AIAA Aviation and Aeronautics Forum and Exposition, Atlanta, GA, USA, June 16-20, 2014. "
+var preprint = ""
+var bib = ""
+var code = ""

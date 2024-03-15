@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Adriano Bittar, Nikolaos I. Vitzilaios, Matthew J. Rutherford, and Kimon P. Valavanis. An Integrated Framework for Cooperative Ground and Aerial Vehicles Missions Utilizing Matlab and X-Plane. In: 2015 IEEE International Systems Conference (SysCon), Vancouver, BC, Canada, April 13-16, 2015."
+var preprint = ""
+var bib = ""
+var code = ""

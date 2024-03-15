@@ -1,0 +1,6 @@
+var prefix= "publications/conferences/"
+var citation = "Michail Kalaitzakis, Sabrina Carroll, Anand Ambrosi, Camden Whitehead, and Nikolaos Vitzilaios. Experimental Comparison of Fiduccial Markers for Pose Estimation. In: 2020 International Conference on Unmanned Aircraft Systems (ICUAS), Athens, Greece, September 1-4, 2020."
+var site = "https://doi.org/10.1109/ICUAS48674.2020.9213977"
+var preprint = "ICUAS2020_Kalaitzakis.pdf"
+var bib = "ICUAS2020_Kalaitzakis.bib"
+var code = "https://github.com/usrl-uofsc/stag_ros"

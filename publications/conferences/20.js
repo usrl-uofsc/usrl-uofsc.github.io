@@ -1,0 +1,6 @@
+var prefix= "publications/conferences/"
+var citation = "Sabrina Carroll, Michail Kalaitzakis, and Nikolaos Vitzilaios. UAS Sensor Deployment and Retrieval to the Underside of Structures. In: 2021 International Conference on Unmanned Aircraft Systems (ICUAS), Athens, Greece, July 15-18, 2021."
+var site = "https://doi.org/10.1109/ICUAS51884.2021.9476737"
+var preprint = ""
+var bib = ""
+var code = ""

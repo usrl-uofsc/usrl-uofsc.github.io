@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Diomidis Katzourakis, Nikos Vitzilaios, and Nikos Tsourveloudis. Object Recognition for Aiding Unmanned Helicopters Flight. In: 2nd Hellenic Robotics Conference, Patras, Greece, December 2010. In Greek."
+var preprint = ""
+var bib = ""
+var code = ""

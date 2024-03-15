@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Michail Kalaitzakis, Sreehari Rajan Kattil, Nikolaos Vitzilaios, Dimitris Rizos, and Michael Sutton. Dynamic Structural Health Monitoring using a DIC-enabled drone. In: 2019 International Conference on Unmanned Aircraft Systems (ICUAS), Atlanta, GA, USA, June 11-14, 2019."
+var preprint = ""
+var bib = ""
+var code = ""

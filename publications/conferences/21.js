@@ -1,0 +1,6 @@
+var prefix= "publications/conferences/"
+var citation = "Brennan Cain, Michail Kalaitzakis, and Nikolaos Vitzilaios. MK-RRT*: Multi-Robot Kinodynamic RRT* Trajectory Planning. In: 2021 International Conference on Unmanned Aircraft Systems (ICUAS), Athens, Greece, July 15-18, 2021."
+var site = "https://doi.org/10.1109/ICUAS51884.2021.9476688"
+var preprint = ""
+var bib = ""
+var code = ""

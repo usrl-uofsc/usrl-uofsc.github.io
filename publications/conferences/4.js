@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Diomidis Katzourakis, Nikos I. Vitzilaios, and Nikos C. Tsourveloudis. Vision Aided Navigation for Unmanned Helicopters. In: Proceedings of the 17th IEEE Mediterranean Conference on Control and Automation (MED 2009), Thessaloniki, Greece, June 24-26, 2009."
+var preprint = ""
+var bib = ""
+var code = ""

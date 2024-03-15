@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Visakha K Nanayakkara, Nantachai Sornkaran, Hasitha Wegiriya, Nikolaos Vitzilaios, Demetrios Venetsanos, Nicolas Rojas, M Necip Sahinkaya, and Thrishantha Nanayakkara. A Method to Estimate the Oblique Arch Folding Axis for Thumb Assistive Devices. In: TAROS 2019: Towards Autonomous Robotic Systems, London, UK, July 3-5, 2019. "
+var preprint = ""
+var bib = ""
+var code = ""

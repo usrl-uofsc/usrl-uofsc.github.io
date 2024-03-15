@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Stephen Conyers, Nikolaos Vitzilaios, Matthew Rutherford, and Kimon Valavanis. A Mobile Self-Leveling Landing Platform for the Extended Operation of Autonomous UAVs in Remote Locations. In: 2015 IEEE International Conference on Robotics & Automation (ICRA), Seattle, WA, USA, May 26-30, 2015."
+var preprint = ""
+var bib = ""
+var code = ""

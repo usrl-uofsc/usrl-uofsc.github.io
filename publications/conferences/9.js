@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Konstantinos Kanistras, Saka Pranith Chander, Kimon P. Valavanis, Nikolaos Vitzilaios, and Matthew J. Rutherford. Design and Development of an Air Supply Unit for Circulation Control Wing-Based UAVs. In: Proceedings of the IEEE Aerospace Conference, Big Sky, MT, USA, March 7-14, 2015."
+var preprint = ""
+var bib = ""
+var code = ""

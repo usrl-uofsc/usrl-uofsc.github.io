@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Bryan Godbolt, Nikolaos I. Vitzilaios, and Alan F. Lynch. Design and Validation of a Helicopter UAV Autopilot. In: Proceedings of the 2012 International Conference on Unmanned Aircraft Systems (ICUAS 12), Philadelphia, PA, USA, June 12-15, 2012."
+var preprint = ""
+var bib = ""
+var code = ""

@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Nikos Vitzilaios, and Nikos Tsourveloudis. Autonomous Navigation for Unmanned Helicopters. In: 1st Hellenic Robotics Conference, Athens, Greece, February 2009. In Greek."
+var preprint = ""
+var bib = ""
+var code = ""

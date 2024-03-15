@@ -1,0 +1,44 @@
+#publications-body > ol > li {
+    margin:0;
+    padding: 0;
+    text-align:justify;
+    text-justify: inter-word;
+}
+
+
+ol#conferences {
+    list-style-type: none; 
+    counter-reset: item 22;
+}
+
+ol#conferences li {
+    counter-increment: item -1;
+}
+
+ol#conferences li:before {
+    position: absolute;   
+    left: 0;   
+    content: "[C" counter(item) "] ";
+}
+
+ol#journals {
+    list-style-type: none; 
+    counter-reset: item 12;
+}
+
+ol#journals li {
+    counter-increment: item -1;
+}
+
+ol#journals li:before {
+    position: absolute;   
+    left: 0;   
+    content: "[J" counter(item) "] ";
+}
+
+.btn-xs {
+    margin: 0px 5px 0px 5px  ;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 5px;
+}

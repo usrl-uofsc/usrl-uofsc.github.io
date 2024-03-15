@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Visakha Nanayakkara, Ahmad Ataka, Demetrios Venetsanos, Olga Duran, Nikolaos Vitzilaios, Thrishantha Nanayakkara, and Necip Sahinkaya. Kinematic Analysis of the Human Thumb with Foldable Palm. In: 17th Towards Autonomous Robotic Systems (TAROS-16), Sheffield, UK, June 28-30, 2016."
+var preprint = ""
+var bib = ""
+var code = ""

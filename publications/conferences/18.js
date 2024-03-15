@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Bharat Joshi, Sharmin Rahman, Michail Kalaitzakis, Brennan Cain, James Johnson, Marios Xanthidis, Nare Karapetyan, Alan Hernandez, Alberto Quattrini Li, Nikolaos Vitzilaios, and Ioannis Rekleitis. Experimental Comparison of Open Source Visual-Inertial-Based State Estimation Algorithms in the Underwater Domain. In: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Macau, China, November 4-8, 2019."
+var preprint = ""
+var bib = ""
+var code = ""

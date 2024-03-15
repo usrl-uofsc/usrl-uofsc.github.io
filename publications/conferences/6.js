@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Bryan Godbolt, Nikolaos Vitzilaios, Chris Bergen, and Alan F. Lynch. Experimental Validation of a Helicopter Autopilot: Time-Varying Trajectory. In: Proceedings of the 2013 International Conference on Unmanned Aircraft Systems (ICUAS 13), Atlanta, GA, USA, May 28-31, 2013."
+var preprint = ""
+var bib = ""
+var code = ""

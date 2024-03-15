@@ -1,0 +1,5 @@
+var prefix= "publications/conferences/"
+var citation = "Nikos I. Vitzilaios, and Nikos C. Tsourveloudis. Altitude Control of Small Helicopters Using a Prototype Test Bed. In: Proceedings of the 5th International Conference on Informatics in Control, Automation and Robotics (ICINCO 2008), Madeira, Portugal, May 11-15, 2008."
+var preprint = ""
+var bib = ""
+var code = ""
