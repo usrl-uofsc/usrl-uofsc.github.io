@@ -42,13 +42,6 @@ document.write(`
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
-        <!-- Toogle theme mode -->
-          <li class="toggle-container">
-            <button id="light-toggle" title="Change theme">
-              <i class="fa-solid fa-moon"></i>
-              <i class="fa-solid fa-sun"></i>
-            </button>
-          </li>
       </ul>
     </div>
 
