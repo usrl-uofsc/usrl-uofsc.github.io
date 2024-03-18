@@ -1,7 +1,7 @@
 document.write(`
 <nav class="navbar navbar-expand-lg navbar-light bg-light flex-row navbar-top">
     <div class="navbar-brand d-md-block">
-      <img src="media/icons/usrl_logo.png" height="100" class="d-inline-block align-center" style="padding-right:2.5rem"/>
+      <a href="index.html"> <img src="media/icons/usrl_logo.png" height="100" class="d-inline-block align-center" style="padding-right:2.5rem"/></a>
       <span class="align-center d-none d-md-inline">Unmanned Systems and Robotics Laboratory</span>
     </div>
     
