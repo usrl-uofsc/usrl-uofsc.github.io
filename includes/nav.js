@@ -1,15 +1,10 @@
 document.write(`
 <nav class="navbar navbar-expand-lg navbar-light bg-light flex-row navbar-top">
     <div class="navbar-brand d-md-block">
-      <img src="media/icons/usrl_logo.png" height="100" class="d-inline-block align-center" />
-      <span class="align-center d-none d-md-inline">Unmanned Systems and Robotics Lab</span>
-
+      <img src="media/icons/usrl_logo.png" height="100" class="d-inline-block align-center" style="padding-right:2.5rem"/>
+      <span class="align-center d-none d-md-inline">Unmanned Systems and Robotics Laboratory</span>
     </div>
-    <span class="mx-lg-auto mr-auto"></span>
-
-    <div class="navbar-brand d-none d-lg-block">
-      <img src="media/icons/usc_logo_horizontal.png" height="80" class="d-inline-block align-center" />
-    </div>
+    
     <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarContent">
       <span class="navbar-toggler-icon"></span>
     </button>

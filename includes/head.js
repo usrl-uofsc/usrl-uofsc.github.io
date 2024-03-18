@@ -17,5 +17,8 @@ document.write(`
   <!-- Custom styles for this template -->
   <link href="style/main.css" rel="stylesheet">
   <link href="style/publications.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
 </head>
 `)

@@ -1,6 +1,7 @@
 document.write(`
   <footer class="page-footer font-small garnet pt-4">
-    <div class="footer-copyright text-center py-3 black">© <script>document.write(new Date().getFullYear());</script> Copyright: Unmanned Systems and Robotics Lab, University
+    <img src="media/icons/usc_logo_centered.png" height="125" class="center" style="padding-bottom:1rem" alt="CEC_USC_logo">
+    <div class="footer-copyright text-center py-3 black">&copy <script>document.write(new Date().getFullYear());</script> USRL Team, University
       of South Carolina. <div class="date"> </div> </div>
 
   </footer>
