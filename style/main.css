@@ -136,7 +136,9 @@ li.dropdown:hover > .dropdown-menu {
   }
 }
 
-.note{display:none;}
+
+bibbase_paper.span.note
+{display:none;}
 
 
 
