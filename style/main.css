@@ -134,11 +134,6 @@ li.dropdown:hover > .dropdown-menu {
   }
 }
 
-
-.note
-{display:none;}
-
-
 .center {
   display: block;
   margin-left: auto;
@@ -179,6 +174,10 @@ h3 {
     font-size: 14px;
     margin-bottom: 30px;
     text-align: center; }
+
+.note
+{display:none;}
+
 
 
 @media all and (max-width:991px)
