@@ -178,6 +178,14 @@ h3 {
 .note
 {display:none;}
 
+.py-3{
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+.pt-4{
+    padding-top: 0.5rem !important;
+}
 
 
 @media all and (max-width:991px)
