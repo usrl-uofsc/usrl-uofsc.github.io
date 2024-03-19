@@ -83,8 +83,6 @@ li.dropdown:hover > .dropdown-menu {
 
 
 
-// Additional Code
-
 .navbar-toggler {
   .icon-bar {
     display: block;
@@ -136,7 +134,7 @@ li.dropdown:hover > .dropdown-menu {
   }
 }
 
-//Publications note field
+
 .note
 {display:none;}
 
@@ -147,8 +145,6 @@ li.dropdown:hover > .dropdown-menu {
   margin-right: auto;
 }
 
-
-//Formating Contact Page and Map
 
 a {
   -webkit-transition: .3s all ease;
