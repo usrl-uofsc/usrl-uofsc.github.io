@@ -175,7 +175,7 @@ h3 {
     text-align: center; }
 
 .note
-{display:none;}
+    {display:none;}
 
 .py-3{
     padding-top: 0.25rem !important;
@@ -217,6 +217,35 @@ h3 {
   overflow: auto;
   font-size: 3rem;
   line-height: 1.15;
+}
+
+.bibbase.doi
+{
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.bibbase.bibtex
+{
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.bibbase_abstract_link
+{
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.bibbase.bibbase_page
+{
+    display: none !important;
 }
 
 @media all and (max-width:1300px)
