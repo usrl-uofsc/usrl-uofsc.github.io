@@ -225,6 +225,7 @@ h3 {
     font-size: 12px;
     border-radius: 5px;
     border: 1px solid black;
+
 }
 
 .bibbase.bibtex
@@ -233,6 +234,7 @@ h3 {
     font-size: 12px;
     border-radius: 5px;
     border: 1px solid black;
+    margin-right:0.5rem;
 }
 
 .bibbase_abstract_link
@@ -248,9 +250,25 @@ h3 {
     display: none !important;
 }
 
+.bibbase.author.link{
+        cursor: default;
+        pointer-events: none;        
+        text-decoration: none;
+        color:inherit;
+
+}
+
+.col-md-2{max-width:15%}
+
+.row{
+    margin-bottom:15px;
+}
+
+
 @media all and (max-width:1300px)
     {
       .overlay-text{font-size: 2rem !important;}
+
 }
 
 @media all and (max-width:720px)
@@ -265,6 +283,8 @@ h3 {
 
 @media all and (max-width:991px)
     {
+
+    #usc_logo{display: none !important;}
 
     .navbar-top {
     border-bottom: none;
@@ -282,6 +302,9 @@ h3 {
     {
         display: none !important;
     }
+
+    .col-md-3{width:50%;min-width:40%}
+    .col-md-2{width:15%;min-width:25%}
 }
 
 
