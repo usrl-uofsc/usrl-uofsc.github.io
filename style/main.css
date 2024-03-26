@@ -4,21 +4,23 @@ html,body,.wrapper,.main{
 }
 
 body {
-
     overflow-x: hidden;
 }
+
 .index-jumbo {  
     display: block;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .navbar-top {
     border-bottom: none;
     padding-bottom: none;
     margin-bottom: none;
     justify-content: center;
 }
+
 .navbar-bottom {
     border-top: none;
     padding-top: none;
@@ -28,48 +30,59 @@ body {
     margin-bottom: 15px;
     box-shadow: #73000a;
 }
+
 .navbar-brand {
     font-size:30px;
 }
+
 .news-img {
     min-width: 100%;
     max-width: 100%;
 }
+
 img {
     max-width:100%;
 }
+
 .centered {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
 }
+
 .text-center {
     text-align: center;
 }
+
 .profile-row {
 margin-bottom: 10px;
 }
+
 .profile-blurb {
     padding-bottom: 20px;
 }
+
 .profile-row > div {
     padding: 10px;
 }
+
 .profile-row > img {
     min-width: 100%;
     max-width: 100%;
     border: 3px solid #73000a;
     border-radius: 2px;
 }
+
 .garnet {
     background-color: #73000a;
 }
+
 .black {
     background-color: black;
 }
+
 footer {
-    width: 100%;
-}
+    width: 100%;}
 .navbar .navbar-nav > li.dropdown:hover > a, 
 .navbar .navbar-nav > li.dropdown:hover > a:hover,
 .navbar .navbar-nav > li.dropdown:hover > a:focus {
@@ -260,9 +273,17 @@ h3 {
 
 .col-md-2{max-width:15%}
 
-.row{
-    margin-bottom:15px;
+#contact_details{
+    padding-top: 5rem; 
+    padding-bottom:2.5rem;
 }
+
+#contact_links{
+    padding-top: 5rem; 
+    padding-bottom:5rem;
+
+}
+
 
 @media all and (max-width:1300px)
     {
