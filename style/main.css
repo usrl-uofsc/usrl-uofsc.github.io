@@ -274,7 +274,10 @@ h3 {
 
 
 .bibbase_paper_content a {
-     border:1px solid black;
+    padding: 5px 5px;
+    font-size: 11px;
+    border-radius: 5px;
+    border:1px solid black;
 }
 
 
