@@ -283,6 +283,23 @@ h3 {
 
 }
 
+#publications-body
+{
+    padding-bottom: 1rem;
+}
+
+#page_title
+{
+    text-align:center;
+    font-weight: normal;
+}
+
+#title_hr
+{
+    border-color: #007bff;
+    border-width: 0.125rem;
+}
+
 
 @media all and (max-width:1300px)
     {
