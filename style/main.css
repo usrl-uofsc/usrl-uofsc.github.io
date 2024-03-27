@@ -188,7 +188,10 @@ h3 {
     text-align: center; }
 
 .note
-    {display:none;}
+    {
+        border-left:none;
+        padding:5px;
+    }
 
 .py-3{
     padding-top: 0.25rem !important;
@@ -267,7 +270,7 @@ h3 {
 .bibbase_paper_content.dontprint
 {
     display: block;
-    padding-top:0.25rem;
+    padding-top:0.5rem;
     padding-bottom:0.25rem;
 
 }
@@ -307,7 +310,7 @@ h3 {
 
 #title_hr
 {
-    border-color: #007bff;
+    border-color: #0070ba;
     border-width: 0.125rem;
 }
 
