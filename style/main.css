@@ -270,10 +270,11 @@ h3 {
     padding-top:0.25rem;
     padding-bottom:0.25rem;
 
-    #a
-    {
-        border:1px solid black;
-    }
+}
+
+
+.bibbase_paper_content a {
+     border:1px solid black;
 }
 
 
