@@ -234,8 +234,8 @@ h3 {
 
 .bibbase.doi
 {
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 5px 5px;
+    font-size: 11px;
     border-radius: 5px;
     border: 1px solid black;
 
@@ -243,8 +243,8 @@ h3 {
 
 .bibbase.bibtex
 {
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 5px 5px;
+    font-size: 11px;
     border-radius: 5px;
     border: 1px solid black;
     margin-right:0.5rem;
@@ -252,8 +252,8 @@ h3 {
 
 .bibbase_abstract_link
 {
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 5px 5px;
+    font-size: 11px;
     border-radius: 5px;
     border: 1px solid black;
 }
@@ -267,7 +267,8 @@ h3 {
 .bibbase_paper_content.dontprint
 {
     display: block;
-    padding-top:0.5rem;
+    padding-top:0.25rem;
+    padding-bottom:0.25rem;
 }
 
 .col-md-2{max-width:15%}
