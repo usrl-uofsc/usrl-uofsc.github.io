@@ -14,7 +14,7 @@ document.write(`
     <div class="collapse navbar-collapse bg-light px-3" id="navbarContent">
       <ul class="navbar-nav mx-md-auto mx-0 w-50 align-items-start nav-fill">
         <li class="nav-item" >
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="research.html">Research</a>
@@ -47,9 +47,10 @@ document.write(`
 $(function(){
 
     var url = window.location.pathname, 
-        urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"); // create regexp to match current url pathname and remove trailing slash if present as it could collide with the link in navigation in case trailing slash wasn't present there
+        urlRegExp = new RegExp(url == '/' ? window.location.origin + '/?$' : url.replace(/\/$/,'')); // create regexp to match current url pathname and remove trailing slash if present as it could collide with the link in navigation in case trailing slash wasn't present there
         // now grab every link from the navigation
         $('#navbarContent a').each(function(){
+            $(this).removeClass('active'); 
             // and test its normalized href against the url pathname regexp
             if(urlRegExp.test(this.href.replace(/\/$/,''))){
                 $(this).addClass('active');
