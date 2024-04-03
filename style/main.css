@@ -287,13 +287,13 @@ h3 {
 .col-md-2{max-width:15%}
 
 #contact_details{
-    padding-top: 4.1rem; 
+    padding-top: 7.5rem; 
     padding-bottom:3rem;
 }
 
 #contact_links{
-    padding-top: 4.1rem; 
-    padding-bottom:3rem;
+    padding-top: 3.3rem; 
+    padding-bottom:5rem;
 
 }
 
@@ -349,6 +349,29 @@ h3 {
     background-color: #0070ba !important;
     text-transform: lowercase;
 }
+
+.nav-link:hover
+{
+    font-weight: bold;
+}
+
+.dropdown-item:hover
+{
+    font-weight: bold !important;
+}
+
+.nav-link.active
+{
+    color:white !important;
+    background-color: #73000a !important;
+}
+
+.dropdown-item.active
+{
+    background-color: #ffffff !important;
+}
+
+
 
 @media all and (max-width:1300px)
     {

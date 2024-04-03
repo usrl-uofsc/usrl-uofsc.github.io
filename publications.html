@@ -9,15 +9,22 @@
     <div class="row justify-content-center">
         <!-- Begin body -->
         <div class="col-lg-8 col-10" id="publications-body">
-        <h1 id="page_title">Publications</h1>
-        <hr id="title_hr">
 
         <script src="https://bibbase.org/show?bib=https://bibbase.org/f/tbSYf9SdqF4pLt3Xz/publications.bib&jsonp=1&theme=dividers&group=type&owner=none&commas=false"></script> 
         </div>
 
     </div>
 
+    <script>     
 
+        $(document).ready(function(){
+          $('.bibbase_paper_content a').filter(function(){
+            return $(this).attr('href').substr(0,8) == "https://";
+          }).attr('target', '_blank');
+        });
+
+
+    </script>
 
     <!-- /#wrapper -->
 
