@@ -17,14 +17,10 @@
 
     <script>     
 
-        document.querySelectorAll('.bibbase_paper_content a')
-        .forEach(function(x) {
-        var url = new URL(x.href);
-            if (url.host !== window.location.host) {
+        document.querySelectorAll('.bibbase_paper_content')
+            .forEach(function(x) {
                 x.setAttribute('target', '_blank');
-            }
-        });
-
+            });
     </script>
 
     <!-- /#wrapper -->
