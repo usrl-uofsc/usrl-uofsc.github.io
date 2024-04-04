@@ -17,10 +17,12 @@
 
     <script>     
 
-        $(document).ready(function(){
-          $('.bibbase_paper_content a').filter(function(){
-            return $(this).attr('href').substr(0,8) == "https://";
-          }).attr("target", "_blank");
+        document.querySelectorAll('.bibbase_paper_content a')
+        .forEach(function(x) {
+        var url = new URL(x.href);
+            if (url.host !== window.location.host) {
+                x.setAttribute('target', '_blank');
+            }
         });
 
     </script>
