@@ -1,9 +1,9 @@
 document.write(`
 <nav class="navbar navbar-expand-lg navbar-light bg-light flex-row navbar-top">
     <div class="navbar-brand d-md-block">
-      <a href="index.html"> <img id="usrl_logo" src="media/icons/usrl_logo.png" height="90" class="d-inline-block align-center" style="padding-right:2.5rem"/></a>
-      <span class="align-center d-none d-md-inline">Unmanned Systems and Robotics Laboratory</span>
-      <a href="https://www.sc.edu" target="_blank"> <img id="usc_logo" src="media/icons/usc_logo_centered_original.png" height="90" class="d-inline-block align-center" style="padding-left:2.5rem"/></a>
+      <a href="index.html"> <img id="usrl_logo" src="media/icons/usrl_logo.png" height="90" class="d-inline-block align-center"/></a>
+      <span style="padding-left:1rem; padding-right:1rem "class="align-center d-none d-md-inline">Unmanned Systems and Robotics Laboratory</span>
+      <a href="https://www.sc.edu" target="_blank"> <img id="usc_logo" src="media/icons/usc_logo_centered_original.png" height="90" class="d-inline-block align-center"/></a>
     </div>
     
     <button class="navbar-toggler ml-lg-0" type="button" data-toggle="collapse" data-target="#navbarContent">
