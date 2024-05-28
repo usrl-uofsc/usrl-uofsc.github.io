@@ -383,7 +383,7 @@ h3 {
 
 @media all and (max-width:1300px)
     {
-      .overlay-text{font-size: 2rem !important;}
+      .overlay-text{font-size: 1.5rem !important;}
 
 }
 
