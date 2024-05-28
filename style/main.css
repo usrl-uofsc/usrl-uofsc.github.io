@@ -9,7 +9,7 @@ body {
 
 .index-jumbo {  
     display: block;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -213,7 +213,7 @@ h3 {
     position: absolute;
     top:50%;
     left:50%;
-    width:80%;
+    width:100%;
     height:100%;
     transform: translate(-50%, -50%); 
     background-color: rgba(0, 0, 0, 0.4); 
@@ -371,7 +371,15 @@ h3 {
     background-color: #ffffff !important;
 }
 
+.referral
+{
+    display:none !important ;
+}
 
+#news
+{
+    text-align:center;
+}
 
 @media all and (max-width:1300px)
     {
